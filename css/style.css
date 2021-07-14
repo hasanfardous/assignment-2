@@ -7,4 +7,84 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    /* font-family: 'Niconne', cursive; */
 }
+
+/* Common styles */
+.container {
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.quarter-width {
+    width: 33.33%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    background: #E02C6D;
+    width: 123px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+/* -------------------
+    Hero styles 
+------------------- */
+header {
+    background: #2D25A0;
+}
+
+
+/* Nav left styles */
+.nav-wrap {
+    width: 1164px;
+    margin: 42px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.nav-left ul li {
+    margin-right: 36px;
+}
+
+.nav-left ul li a {
+    color: #fff;
+    line-height: 44px;
+    font-weight: 500;
+}
+
+/* Nav right styles */
+.nav-right a i {
+    margin-right: 8px;
+}
+

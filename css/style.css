@@ -60,7 +60,7 @@ header {
 
 
 /* Nav left styles */
-.nav-wrap {
+.nav-wrap, .hero-section {
     width: 1164px;
     margin: 42px auto;
     display: flex;
@@ -88,3 +88,28 @@ header {
     margin-right: 8px;
 }
 
+/* Left content styles */
+.left-content {
+    max-width: 485px;
+}
+
+.left-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+    margin: 60px auto 15px;
+}
+
+.left-content .button {
+    width: 168px;
+}
+
+.left-content .button i {
+    margin-left: 8px;
+}
+
+/* Right content styles */
+.hero-section {
+    margin: 7px auto 85px;
+}

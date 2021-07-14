@@ -26,18 +26,6 @@ a {
     color: #fff;
 }
 
-.half-width {
-    width: 50%;
-}
-
-.quarter-width {
-    width: 33.33%;
-}
-
-.text-center {
-    text-align: center;
-}
-
 img {
     max-width: 100%;
 }
@@ -224,4 +212,127 @@ footer .container {
     line-height: 24px;
     color: #000000;
     margin: 0 auto;
+}
+
+
+/* ---------------------------
+    Responsive styles 
+--------------------------- */
+
+/* Tab styles */
+@media screen and (max-width: 768px) {
+    /* Hero styles */
+    .container {
+        padding: 0 15px;
+    }
+    .nav-left ul li {
+        margin-right: 30px;
+    }
+    .left-content h1 {
+        font-size: 46px;
+        line-height: 60px;
+        margin: 30px auto 15px;
+    }
+
+    /* Player styles */
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 70px auto 60px;
+    }
+
+    /* Highlights section styles */
+    .highlights-section .right-content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .highlights-section img {
+        max-width: 90%;
+    }
+
+    /* Footer styles */
+    footer {
+        margin: 120px auto 63px;
+    }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+    /* Hero styles */
+    .nav-wrap {
+        margin: 33px auto;
+    }
+    .hero-section {
+        flex-direction: column;
+        margin-bottom: 61px;
+    }
+    .button {
+        width: 90px;
+        height: 33px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .nav-left ul {
+        display: none;
+    }
+    .nav-left::before {
+        content: '\f0c9';
+        font-family: FontAwesome;
+        color: #fff;
+        position: absolute;
+        left: 16px;
+        top: 36px;
+        font-size: 24px;
+    }
+    .left-content h1 {
+        font-size: 36px;
+        line-height: 50px;
+        margin: 13px 0 30px;
+        max-width: 278px;
+    }
+    .left-content .button {
+        width: 168px;
+        height: 44px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 50px;
+    }
+
+    /* Player styles */
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 47px auto 36px;
+    }
+    .player {
+        margin-bottom: 24px;
+    }
+
+    /* Highlights section styles */
+    .highlights-section {
+        flex-direction: column;
+    }
+    .highlights-section .left-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 89%;
+        margin: 0;
+    }
+    .highlights-section .left-content .button {
+        max-width: 173px;
+        margin-bottom: 29px;
+    }
+    .highlights-section img {
+        max-width: 100%;
+    }
+
+    /* Footer styles */
+    footer {
+        margin: 43px auto 236px;
+    }
+    .footer-logo img {
+        max-width: 80%;
+    }
+    .social-icons {
+        margin: 29px auto 20px;
+    }
 }

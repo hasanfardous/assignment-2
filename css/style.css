@@ -124,7 +124,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
-    margin: 70px auto 150px;
+    margin: 70px auto 140px;
 }
 
 .player {
@@ -146,4 +146,41 @@ header {
     line-height: 26px;
     color: #6C6C6C;
     margin: 0 auto 18px;
+}
+
+
+/* ---------------------------
+    Highlights section styles 
+--------------------------- */
+.highlights-section {
+    width: 1102px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlights-section .left-content {
+    max-width: 469px;
+}
+
+.highlights-section h1 {
+    color: #0A0826;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 50px auto 0;
+}
+
+.highlights-section p {
+    max-width: 404px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin: 8px 0px 24px;
+}
+
+.highlights-section .button {
+    width: 172px;
+}
+
+.highlights-section img {
+    max-width: 567px;
 }

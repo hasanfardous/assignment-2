@@ -184,3 +184,44 @@ header {
 .highlights-section img {
     max-width: 567px;
 }
+
+
+/* ---------------------------
+    Footer styles 
+--------------------------- */
+footer {
+    margin: 158px auto 63px;
+}
+
+footer .container {
+    flex-direction: column;
+}
+
+.footer-logo, .social-icons, .copyright {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icons {
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.social-icons i {
+    background: #0b0d171a;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 6.5px;
+    color: #969BAB;
+}
+
+.copyright p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 auto;
+}
